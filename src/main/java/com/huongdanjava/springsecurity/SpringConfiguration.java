@@ -27,6 +27,65 @@ public class SpringConfiguration implements WebMvcConfigurer {
     bean.setSuffix(".jsp");
 
     return bean;
- 
+  }
+    @Bean
+  public ViewResolver viewResolver() {
+    InternalResourceViewResolver bean = new InternalResourceViewResolver();
+
+    bean.setViewClass(JstlView.class);
+    bean.setPrefix("/WEB-INF/views/");
+    bean.setSuffix(".jsp");
+
+    return bean;
+  }
+    @Bean
+  public ViewResolver viewResolver() {
+    InternalResourceViewResolver bean = new InternalResourceViewResolver();
+
+    bean.setViewClass(JstlView.class);
+    bean.setPrefix("/WEB-INF/views/");
+    bean.setSuffix(".jsp");
+
+    return bean;
+  }
+    @Bean
+  public ViewResolver viewResolver() {
+    InternalResourceViewResolver bean = new InternalResourceViewResolver();
+
+    bean.setViewClass(JstlView.class);
+    bean.setPrefix("/WEB-INF/views/");
+    bean.setSuffix(".jsp");
+
+    return bean;
+  }  @Bean
+  public ViewResolver viewResolver() {
+    InternalResourceViewResolver bean = new InternalResourceViewResolver();
+
+    bean.setViewClass(JstlView.class);
+    bean.setPrefix("/WEB-INF/views/");
+    bean.setSuffix(".jsp");
+
+    return bean;
+  }
+    @Bean
+  public ViewResolver viewResolver() {
+    InternalResourceViewResolver bean = new InternalResourceViewResolver();
+
+    bean.setViewClass(JstlView.class);
+    bean.setPrefix("/WEB-INF/views/");
+    bean.setSuffix(".jsp");
+
+    return bean;
+  }
+    @Bean
+  public ViewResolver viewResolver() {
+    InternalResourceViewResolver bean = new InternalResourceViewResolver();
+
+    bean.setViewClass(JstlView.class);
+    bean.setPrefix("/WEB-INF/views/");
+    bean.setSuffix(".jsp");
+
+    return bean;
+  }
 
 }
